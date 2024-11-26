@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar style */
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 100px;
+    background-color: #24252A;
+}
+
+.navbar .logo {
+    font-size: 40px;
+    font-weight: bold;
+    cursor: default;
+    margin-right: 100px;
+    padding: 0 25px;
+    align-items: center;
+    color: lightgrey;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: grey;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar .menu a:hover {
+    color: white;
+}
+
+
+.footer {
+    background: #24252A;
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    flex-direction: column;
+}
+
+.footer-col h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-col li {
+    margin-bottom: 10px;
+}
+
+.footer-col li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-col li a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    padding: 20px;
+}

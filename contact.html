@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">UrbanDrive</a>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <h1>Contact Us</h1>
+
+    <section>
+        <div class="form">
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <fieldset id="particular">
+                    <legend>Contact form</legend>
+                        <h2>Personal Details</h2>
+
+                        <input type="hidden" name="access_key" value="ea65efe8-becd-4224-9cb6-788eab07a48d">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required/><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="abcde@gmail.com" required/><br>
+
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required/><br>
+
+                        <label for="number">Phone number:</label>
+                        <input type="tel" id="number" name="number" placeholder="12345678" pattern="\d{8}" required/><br>
+
+                        <h2>Your Message</h2><br>
+                        <label for="subject">Subject</label><br>
+                        <input type="text" id="subject" name="subject" required/>
+                        <br><br>
+
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="10" cols="50"></textarea><br>
+                        <button id="submit" type="submit">Submit</button>
+                </fieldset>
+            </form> 
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="address">
+            <h3>Dealership Studio</h3>
+            <p>Address: 123 Punggol street<br>
+            #01-234, Singapore 984358<br>
+            Opening Hours:<br>
+            Mon-Sun: 11am-8pm</p>
+        </div>
+
+        <div class="service">
+            <h3>Customer Service</h3>
+            <p>+65 90436072<br>
+                Opening Hours:<br>
+                Mon-Fri: 9am-6pm</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Page</h3>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <li><a href="contact.html">Contact Dealer</a></li>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>Copyright &copy 2024; Designed by Kai Syuen</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="contact.js"></script>
+</body>
+</html>
