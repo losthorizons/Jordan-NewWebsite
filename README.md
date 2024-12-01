@@ -15,3 +15,5 @@ JavaScript or simple links could be integrated to implement search functionality
 Image Placeholder:
 The broken image icons indicate either missing or improperly linked image files (defined in <img> tags).
 This combination of HTML, CSS, and possibly JavaScript forms a robust foundation for such a dynamic and user-friendly interface. 
+
+Website is able to allow the customers to search for their preferred car choice through the search filter.
